@@ -25,6 +25,33 @@ public:
 
 
 
+
+
+
+
+
+class TreeClass {
+    private:
+    NodeClass* roottreeobject;
+
+
+
+public:
+
+    TreeClass(NodeClass* roottreeobject);
+    NodeClass* getrootclass();
+
+    void consoleoutputtreeclass();
+    void consolenodelist(NodeClass* nodeclass);
+
+
+};
+
+
+
+
+
+
 class NodeClass {
     private:
     Squirrel* squirrel;
@@ -43,26 +70,6 @@ public:
     NodeClass* leftobject();
     NodeClass* rightobject();
 
-
-
-};
-
-
-
-
-class TreeClass {
-    private:
-    NodeClass* roottreeobject;
-
-
-
-public:
-
-    TreeClass(NodeClass* roottreeobject);
-    NodeClass* getrootclass();
-
-    void consoleoutputtreeclass();
-    void consolenodelist(NodeClass* nodeclass);
 
 
 };
