@@ -25,7 +25,27 @@ public:
 
 
 
+class NodeClass {
+    private:
+    Squirrel* squirrel;
+    NodeClass* leftnode;
+    NodeClass* rightnode;
 
+
+public:
+    NodeClass(Squirrel* squirrel);
+    Squirrel* get_squirrel();
+
+
+    void leftside(NodeClass* left);
+    void rightside(NodeClass* right);
+
+    NodeClass* leftobject();
+    NodeClass* rightobject();
+
+
+
+};
 
 
 
@@ -52,24 +72,4 @@ public:
 
 
 
-class NodeClass {
-    private:
-    Squirrel* squirrel;
-    NodeClass* leftnode;
-    NodeClass* rightnode;
 
-
-public:
-    NodeClass(Squirrel* squirrel);
-    Squirrel* get_squirrel();
-
-
-    void leftside(NodeClass* left);
-    void rightside(NodeClass* right);
-
-    NodeClass* leftobject();
-    NodeClass* rightobject();
-
-
-
-};
