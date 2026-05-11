@@ -21,7 +21,7 @@ int main() {
     getline(std::cin,item1);
 
 
-    std::cout<<"Do you want item 1 to be on the left or right side?: ";
+    std::cout<<"Do you want item 1 to be on the left or right side? (type left or right): ";
     getline(std::cin,firstside);
 
 
@@ -29,7 +29,7 @@ int main() {
     getline(std::cin,item2);
 
 
-    std::cout<<"Do you want item 2 to be on the left or right side?: ";
+    std::cout<<"Do you want item 2 to be on the left or right side? (type left or right): ";
     getline(std::cin,secondside);
 
 
@@ -82,7 +82,6 @@ int main() {
     std::cout<<"\n";
     std::cout<<ob1.getrootclass()->get_squirrel()->get_name()<<std::endl;
     std::cout<<"\n";
-    std::cout<<"-------";
     std::cout<<"\n";
 
 
@@ -96,7 +95,6 @@ int main() {
         std::cout<<"\n";
         std::cout<<rootidvariable.leftobject()->get_squirrel()->get_name()<<std::endl;
         std::cout<<"\n";
-        std::cout<<"-------";
         std::cout<<"\n";
 
     };
@@ -112,7 +110,6 @@ int main() {
 
         std::cout<<rootidvariable.rightobject()->get_squirrel()->get_name()<<std::endl;
         std::cout<<"\n";
-        std::cout<<"-------";
         std::cout<<"\n";
     }
 
